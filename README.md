@@ -24,4 +24,12 @@ Change 5 server
  Undo all commits. Non recoverable
  
  
+ ## MERGE
+ 
+ Merge hot fix back to master.
+ 
+ git checkout master
+ git merge hotfix
+ 
+ 
  
