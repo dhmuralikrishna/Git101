@@ -49,8 +49,6 @@ While merging it will be fast forward.
     <li>git rebase --abort</li>
 </ul>
 
- 
-
  All changes made by commits in the current branch but that are not in <upstream> are saved to a temporary area
 
  git log <upstream>..HEAD
