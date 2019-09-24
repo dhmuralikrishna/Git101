@@ -30,12 +30,19 @@ Undo all commits. Non recoverable
 
 Merge hot fix back to master.
 
- <ul>
-<li>git checkout master</li>
-<li>git merge hotfix</li>
- </ul>
+<ul>
+    <li>git checkout master</li>
+    <li>git merge hotfix</li>
+</ul>
 
 Merge commit. Three way merge(Has more than one parent)
+
+Merging all that changes that are done after cutting workingbranch
+
+<ul>
+    <li>git checkout workingbranch</li>
+    <li>git merge master</li>
+</ul>
 
 ## Rebase
 
@@ -53,13 +60,25 @@ While merging it will be fast forward.
 
  git log <upstream>..HEAD
 
+## Sync with master
 
-## Compare changes
+See where is this current branch compared with master.
+git log --graph --oneline --all
 
 It will give the common ancestor between two branches
  git merge-base  branchA  branchB
- 
 
-## RESET
+## REDO COMMITS
 
-git reset [commit]
+All the commits after this commit id are rolled back and put it in pending changes.
+git reset [commit] 
+
+Discard all commits after this commit.
+git reset --hard [commit]
+
+## Save Fragments
+
+git stash list
+git stash
+git stash pop
+git stash drop
