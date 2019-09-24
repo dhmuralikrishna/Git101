@@ -18,12 +18,11 @@
 ## Branch
 
 List branches <br/>
-git branch
 
- <ul>
-<li>git checkout <FromBranchName-That you want to create from></li>
-<li>git branch <newbranchname></li>
- </ul>
+<ul>
+ <li>git checkout <FromBranchName-That you want to create from></li>
+ <li>git branch <newbranchname></li>
+</ul>
 
  Create branch from specific version
  git branch branchname <sha1-of-commit>
