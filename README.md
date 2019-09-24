@@ -9,12 +9,24 @@
 <li>git status</li>
 <li>git log -p -1</li>
 <li>git log --pretty=oneline</li>
+<li>git log --graph --oneline --all</li>
  </ul>
 
 ## Branch
 
-git checkout <FromBranchName-That you want to create>
-git branch <newbranchname>
+List branches <br/>
+git branch
+
+ <ul>
+<li>git checkout <FromBranchName-That you want to create from></li>
+<li>git branch <newbranchname></li>
+ </ul>
+
+ Create branch from specific version
+ git branch branchname <sha1-of-commit>
+
+Delete branch <br/>
+git branch -d hotfix
 
 ## REDO Commits
 
@@ -62,16 +74,13 @@ While merging it will be fast forward.
 
 ## Sync with master
 
-See where is this current branch compared with master.
-git log --graph --oneline --all
-
 It will give the common ancestor between two branches
  git merge-base  branchA  branchB
 
 ## REDO COMMITS
 
 All the commits after this commit id are rolled back and put it in pending changes.
-git reset [commit] 
+git reset [commit]
 
 Discard all commits after this commit.
 git reset --hard [commit]
