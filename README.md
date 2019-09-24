@@ -58,7 +58,8 @@ While merging it will be fast forward.
 
 It will give the common ancestor between two branches
  git merge-base  branchA  branchB
+ 
 
-change 1 on master
+## RESET
 
-change 2 on master
+git reset [commit]
