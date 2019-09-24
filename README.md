@@ -2,6 +2,7 @@
 
  <ul>
 <li>git init</li>
+<li>git clone [url]</li>
 <li>git branch</li>
 <li>git add \*</li>
 <li>git commit -m "comment.."</li>
@@ -10,6 +11,7 @@
 <li>git log -p -1</li>
 <li>git log --pretty=oneline</li>
 <li>git log --graph --oneline --all</li>
+ <li>git reset [file]</li>
  </ul>
 
 ## Branch
@@ -28,31 +30,21 @@ git branch
 Delete branch <br/>
 git branch -d hotfix
 
-## REDO Commits
-
-Redo multiple commits as one commit.
-
-git reset [commit]
-Undo all commits and have the committed changes in pending changes.
-
-git reset --hard [commit]
-Undo all commits. Non recoverable
-
 ## MERGE
 
 Merge hot fix back to master.
+
+Merge commit. Three way merge(Has more than one parent)
 
 <ul>
     <li>git checkout master</li>
     <li>git merge hotfix</li>
 </ul>
 
-Merge commit. Three way merge(Has more than one parent)
-
-Merging all that changes that are done after cutting workingbranch
+Merging all that changes that are done after cutting working-branch
 
 <ul>
-    <li>git checkout workingbranch</li>
+    <li>git checkout [working-branch]</li>
     <li>git merge master</li>
 </ul>
 
@@ -71,6 +63,18 @@ While merging it will be fast forward.
  All changes made by commits in the current branch but that are not in <upstream> are saved to a temporary area
 
  git log <upstream>..HEAD
+
+
+## REDO Commits
+
+Redo multiple commits as one commit.
+
+git reset [commit]
+Undo all commits and have the committed changes in pending changes.
+
+git reset --hard [commit]
+Undo all commits. Non recoverable
+
 
 ## Sync with master
 
