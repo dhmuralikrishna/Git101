@@ -38,7 +38,9 @@ Change 5 server
 There is no difference with merge and rebase. Rebase will make cleaner history looks like a linear history.
 While merging it will be fast forward.
 
-git checkout experiment
-git rebase master
+<ul>
+<li>git checkout experiment</li>
+<li>git rebase master</li>
+ <ul>
  
  
