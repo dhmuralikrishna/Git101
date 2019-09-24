@@ -91,7 +91,18 @@ git reset --hard [commit]
 
 ## Save Fragments
 
-git stash list
-git stash
-git stash pop
+git stash list<br/>
+git stash<br/>
+git stash pop<br/>
 git stash drop
+
+## VisualStudio  
+
+Lets say when we stash the changes there are stage(Good code ready to make commit) and changed sections(Draft version).<br/>
+We can stash and restore the changes as-is.<br/>
+
+Apply vs Pop. <br/>
+Apply will keep the stash where as pop will delete the stash after popping the changes. <br/>
+
+[Apply and restore staged]. It Will un-shelve the same way state when it's stashed. <br/>
+[Apply all and unstage]. It will un-shelve all the(stated and changed) files to changed section.
