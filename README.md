@@ -31,6 +31,9 @@ git branch
 Delete branch <br/>
 git branch -d hotfix
 
+git checkout [branch-you-want-to-rename]
+git branch -m [new-branch-name]
+
 ## MERGE
 
 Merge hot fix back to master.
