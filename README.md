@@ -43,9 +43,13 @@ There is no difference with merge and rebase. Rebase will make cleaner history l
 While merging it will be fast forward.
 
 <ul>
-<li>git checkout experiment</li>
-<li>git rebase master</li>
- </ul>
+    <li>git checkout experiment</li>
+    <li>git rebase master</li>
+    <li>git rebase --continue</li>
+    <li>git rebase --abort</li>
+</ul>
+
+ 
 
  All changes made by commits in the current branch but that are not in <upstream> are saved to a temporary area
 
