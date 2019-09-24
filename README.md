@@ -11,7 +11,8 @@
 <li>git log -p -1</li>
 <li>git log --pretty=oneline</li>
 <li>git log --graph --oneline --all</li>
- <li>git reset [file]</li>
+<li>git diff branch1..branch2</li>
+<li>git reset [file]</li>
  </ul>
 
 ## Branch
@@ -60,6 +61,10 @@ While merging it will be fast forward.
     <li>git rebase --abort</li>
 </ul>
 
+Lets say next is cut from master and topic is cut from next. 
+And next changes are merged to master. Now we want the topic is rebase master.
+git rebase --onto master next topic
+
  All changes made by commits in the current branch but that are not in <upstream> are saved to a temporary area
 
  git log <upstream>..HEAD
@@ -88,6 +93,11 @@ git reset [commit]
 
 Discard all commits after this commit.
 git reset --hard [commit]
+
+## CherryPick
+
+Checkout the branch that you want to cheery pick into. <br/>
+git cherry-pick a7c3dab
 
 ## Save Fragments
 
