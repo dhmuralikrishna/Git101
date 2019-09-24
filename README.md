@@ -11,9 +11,10 @@
 <li>git log --pretty=oneline</li>
  </ul>
 
- ## Branch
+## Branch
 
- 
+git checkout <FromBranchName-That you want to create>
+git branch <newbranchname>
 
 ## REDO Commits
 
