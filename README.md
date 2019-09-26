@@ -20,11 +20,11 @@
 |Command  |Description   | Notes  |  
 |---|---|---|
 |```git branch``` | Lists all the branches in current repository|   |
-|git checkout [branch-name]|Checkout the provided branch|  |
-|git checkout [from-branch-name] <br/> git branch [new-branch-name]|Create a new branch from the current checkout branch|  |
-|git branch [new-branch-name] [sha1-of-commit]|Create a new branch from the commit-id|  |
-|git branch -d [deleting-branch-name] |Delete branch|Make sure you are NOT checked out the branch you are deleting |
-|git checkout [from-branch-name] <br/> git branch -m [to-branch-name] |Rename a branch||
+|```git checkout [branch-name]```|Checkout the provided branch|  |
+|```git checkout [from-branch-name] <br/> git branch [new-branch-name]```|Create a new branch from the current checkout branch|  |
+|```git branch [new-branch-name] [sha1-of-commit]```|Create a new branch from the commit-id|  |
+|```git branch -d [deleting-branch-name]```|Delete branch|Make sure you are NOT checked out the branch you are deleting |
+|```git checkout [from-branch-name] <br/> git branch -m [to-branch-name]``` |Rename a branch||
 
 ## MERGE
 
