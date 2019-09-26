@@ -74,13 +74,14 @@ git rebase --onto master next topic
 
 ## REDO Commits
 
-Redo multiple commits as one commit.
+Redo all changes. Dont provide the commiitid 
+git reset --hard
 
 git reset [commit]
 Undo all commits and have the committed changes in pending changes.
 
 git reset --hard [commit]
-Undo all commits. Non recoverable
+Undo all commits after the provided commits. Non recoverable
 
 
 ## Sync with master
@@ -95,6 +96,14 @@ git reset [commit]
 
 Discard all commits after this commit.
 git reset --hard [commit]
+
+## Squash commits
+
+Merging multiple commits as one. N is the number of latest commits that needs to be merged.
+git rebase -interactive  HEAD~[N]
+
+Sqash all the commits after this commit.
+git rebase --interactive [commit-hash]
 
 ## CherryPick
 
