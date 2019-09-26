@@ -17,8 +17,8 @@
  
 ## Branch
 
-|Command                                |Description   | Notes  |  
-|---|---|---|
+|Command                   |Description   | Notes  |  
+|--------------------------|---|---|
 |```git branch``` | Lists all the branches in current repository|   |
 |```git checkout [branch-name]```|Checkout the provided branch|  |
 |```git checkout [from-branch-name]``` <br/> ```git branch [new-branch-name]```|Create a new branch from the current checkout branch|  |
