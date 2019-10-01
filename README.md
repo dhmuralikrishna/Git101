@@ -13,6 +13,7 @@
 <li>git log --graph --oneline --all</li>
 <li>git diff branch1..branch2</li>
 <li>git reset [file]</li>
+<li>git pull origin [branch name]</li>
  </ul>
  
 ## Branch
@@ -25,6 +26,10 @@
 |```git branch [new-branch-name] [sha1-of-commit]```|Create a new branch from the commit-id| 
 |```git branch -d [deleting-branch-name]```|Delete branch </br> Make sure you are NOT checked out the branch you are deleting|
 |```git checkout [from-branch-name]``` <br/> ```git branch -m [to-branch-name]``` |Rename a branch|
+|||
+|```git branch -r --list *search*|Search remote branches|
+|```git checkout -b [branch name] origin/[branch name]```|Clone a remote branch and switch to it|
+|```git push origin --delete [branch name]```|Delete a remote branch|
 
 ## MERGE
 
