@@ -14,6 +14,7 @@
 <li>git diff branch1..branch2</li>
 <li>git reset [file]</li>
 <li>git pull origin [branch name]</li>
+<li>git show [commitid]</li>
  </ul>
  
 ## Branch
