@@ -29,7 +29,7 @@
 |```git checkout [from-branch-name]``` <br/> ```git branch -m [to-branch-name]``` |Rename a branch|
 |||
 |```git branch -r --list *search*```|Search remote branches|
-|```git checkout -b [branch name] origin/[branch name]```|Clone a remote branch and switch to it|
+|```git fetch``` ```git checkout -b [branch name] origin/[branch name]```|Clone a remote branch and switch to it|
 |```git push origin --delete [branch name]```|Delete a remote branch|
 
 ## MERGE
