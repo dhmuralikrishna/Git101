@@ -15,6 +15,7 @@
 <li>git reset [file]</li>
 <li>git pull origin [branch name]</li>
 <li>git show [commitid]</li>
+<li>git rev-parse master -- Last commitid</li>
  </ul>
  
 ## Branch
