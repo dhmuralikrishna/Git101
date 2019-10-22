@@ -32,6 +32,7 @@
 |```git branch -r --list *search*```|Search remote branches|
 |```git fetch```<br/>```git checkout -b [branch name] origin/[branch name]```|Clone a remote branch and switch to it|
 |```git push origin --delete [branch name]```|Delete a remote branch|
+|```git checkout -b [new branch name]```|Create a new branch and checkout <br/> By mistake you started changing in master and want to create a new branch and have to changes there |
 
 ## MERGE
 
