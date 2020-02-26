@@ -78,6 +78,10 @@ git rebase --onto master next topic
 Redo all changes. Dont provide the commiitid 
 git reset --hard
 
+Redo changes on a file. 
+Go to a directory cd directory-path
+git checkout f08a63ff4 -- filename
+
 git reset [commit]
 Undo all commits and have the committed changes in pending changes.
 
