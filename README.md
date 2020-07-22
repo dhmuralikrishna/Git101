@@ -52,6 +52,12 @@ Merging all that changes that are done after cutting working-branch
     <li>git merge master</li>
 </ul>
 
+Merge all the changes in a branch to another branch as single commit.
+<ul>
+ <li>git checkout [new-working-branch]</li>
+ <li>git merge --squash <worked-branch that has your commits c1, c2, m1, m2, c3...><li>
+<ul>
+ 
 ## Rebase
 
 There is no difference with merge and rebase. Rebase will make cleaner history looks like a linear history.
