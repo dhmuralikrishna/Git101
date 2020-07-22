@@ -53,10 +53,11 @@ Merging all that changes that are done after cutting working-branch
 </ul>
 
 Merge all the changes in a branch to another branch as single commit.
+
 <ul>
- <li>git checkout [new-working-branch]</li>
- <li>git merge --squash <worked-branch that has your commits c1, c2, m1, m2, c3...</li>
-<ul>
+    <li>git checkout [new-working-branch]</li>
+    <li>git merge --squash [worked-branch that has your commits c1, c2, m1, m2, c3...]</li>
+</ul>
  
 ## Rebase
 
